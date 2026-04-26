@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-04-26T20:22:49.662Z",
+  "status": "draft_requires_human_review",
+  "sources": [
+    "Wikipedia: List of S&P 500 companies",
+    "Wikipedia: KOSPI 200",
+    "data/theme-core-kr.json"
+  ],
+  "counts": {
+    "us": 503,
+    "kr": 214
+  }
+}
