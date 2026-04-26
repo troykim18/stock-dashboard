@@ -1,0 +1,66 @@
+name: Market Tracker
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Task to run"
+        required: true
+        default: "record"
+        type: choice
+        options:
+          - signals
+          - record
+          - finalize
+          - archive
+  schedule:
+    # 07:00 KST, Sunday-Thursday UTC: create next Korean trading-day signals.
+    - cron: "0 22 * * 0-4"
+    # 09:00-20:10 KST, Monday-Friday: record mapped Korean stocks every 10 minutes.
+    - cron: "*/10 0-11 * * 1-5"
+    # 20:20 KST, Monday-Friday: finalize regular/after-hours/NXT-ish reaction scores.
+    - cron: "20 11 * * 1-5"
+    # 21:00 KST, Monday-Friday: archive snapshots older than 30 days.
+    - cron: "0 12 * * 1-5"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      GDRIVE_CLIENT_EMAIL: ${{ secrets.GDRIVE_CLIENT_EMAIL }}
+      GDRIVE_PRIVATE_KEY: ${{ secrets.GDRIVE_PRIVATE_KEY }}
+      GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+      SNAPSHOT_KEEP_DAYS: "30"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Select task
+        id: task
+        shell: bash
+        run: |
+          TASK="${{ github.event.inputs.task }}"
+          if [ -z "$TASK" ]; then
+            MIN=$(date -u +%H%M)
+            if [ "$MIN" = "2200" ]; then TASK="signals";
+            elif [ "$MIN" = "1120" ]; then TASK="finalize";
+            elif [ "$MIN" = "1200" ]; then TASK="archive";
+            else TASK="record"; fi
+          fi
+          echo "task=$TASK" >> "$GITHUB_OUTPUT"
+      - name: Generate daily signals
+        if: steps.task.outputs.task == 'signals'
+        run: node scripts/generate-daily-signals.mjs
+      - name: Record intraday snapshots
+        if: steps.task.outputs.task == 'record'
+        run: node scripts/record-intraday-snapshots.mjs
+      - name: Finalize daily results
+        if: steps.task.outputs.task == 'finalize'
+        run: node scripts/finalize-daily-results.mjs
+      - name: Archive old snapshots
+        if: steps.task.outputs.task == 'archive'
+        run: node scripts/archive-old-snapshots.mjs
