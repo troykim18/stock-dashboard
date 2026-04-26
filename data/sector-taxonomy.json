@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "note": "투자 검수용 초안입니다. GICS 세부산업을 한국 투자자가 보기 쉬운 세부섹터/테마로 다시 묶습니다.",
+  "sectors": {
+    "semiconductor": {
+      "label": "반도체",
+      "subSectors": {
+        "ai_gpu_accelerator": "AI GPU/가속기",
+        "memory_hbm": "메모리/HBM",
+        "foundry": "파운드리",
+        "semi_equipment": "반도체 장비",
+        "backend_packaging": "후공정/패키징",
+        "eda_ip": "EDA/IP",
+        "fabless_mobile": "모바일/통신 팹리스",
+        "auto_mcu_power": "차량용/MCU/전력반도체",
+        "analog_mixed_signal": "아날로그/혼합신호",
+        "storage_nand": "스토리지/NAND",
+        "pcb_substrate": "PCB/기판"
+      }
+    },
+    "ai_infra": {
+      "label": "AI 인프라",
+      "subSectors": {
+        "cloud_platform": "클라우드 플랫폼",
+        "data_center": "데이터센터",
+        "network_switch": "네트워크/스위치",
+        "power_grid": "전력망/전력기기",
+        "cooling": "냉각/공조",
+        "server_supply_chain": "서버 공급망"
+      }
+    },
+    "ev_battery": {
+      "label": "전기차/2차전지",
+      "subSectors": {
+        "ev_oem": "전기차 완성차",
+        "battery_cell": "배터리 셀",
+        "battery_material": "양극재/음극재/전해액",
+        "battery_equipment": "배터리 장비",
+        "charging": "충전 인프라",
+        "auto_parts": "전장/자동차부품"
+      }
+    },
+    "bio_healthcare": {
+      "label": "바이오/헬스케어",
+      "subSectors": {
+        "big_pharma": "대형 제약",
+        "biotech": "바이오텍",
+        "biosimilar_cdmo": "바이오시밀러/CDMO",
+        "medical_device": "의료기기",
+        "diagnostics": "진단/분석장비",
+        "obesity_diabetes": "비만/당뇨"
+      }
+    },
+    "defense_aerospace": {
+      "label": "방산/항공우주",
+      "subSectors": {
+        "defense_prime": "방산 체계",
+        "aerospace_engine": "항공/엔진",
+        "satellite_space": "위성/우주",
+        "ship_defense": "함정/해양방산"
+      }
+    },
+    "shipbuilding_industrial": {
+      "label": "조선/산업재",
+      "subSectors": {
+        "shipbuilding": "조선",
+        "marine_engine": "선박엔진",
+        "construction_equipment": "건설기계",
+        "factory_automation": "공장자동화",
+        "logistics": "물류"
+      }
+    },
+    "consumer_brand": {
+      "label": "소비/브랜드",
+      "subSectors": {
+        "beauty_cosmetics": "화장품",
+        "food_beverage": "음식료",
+        "retail": "유통",
+        "travel_leisure": "여행/레저",
+        "fashion": "패션"
+      }
+    },
+    "media_platform": {
+      "label": "미디어/플랫폼",
+      "subSectors": {
+        "internet_platform": "인터넷 플랫폼",
+        "game": "게임",
+        "entertainment": "엔터/콘텐츠",
+        "advertising": "광고"
+      }
+    },
+    "finance_rate": {
+      "label": "금융/금리",
+      "subSectors": {
+        "bank": "은행",
+        "securities": "증권",
+        "insurance": "보험",
+        "payments": "결제/핀테크",
+        "asset_manager": "자산운용"
+      }
+    },
+    "energy_material": {
+      "label": "에너지/소재",
+      "subSectors": {
+        "oil_gas": "정유/가스",
+        "petrochemical": "석유화학",
+        "steel": "철강",
+        "copper_metal": "구리/비철",
+        "solar_wind": "태양광/풍력",
+        "nuclear": "원전"
+      }
+    }
+  }
+}

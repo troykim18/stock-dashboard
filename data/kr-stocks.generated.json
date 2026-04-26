@@ -1,0 +1,3042 @@
+[
+  {
+    "code": "090430",
+    "name": "Amorepacific",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "002790",
+    "name": "Amorepacific Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "278470",
+    "name": "APR",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "002030",
+    "name": "Asia Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "282330",
+    "name": "BGF Retail",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "138930",
+    "name": "BNK Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "068270",
+    "name": "Celltrion",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "030000",
+    "name": "Cheil Worldwide",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "185750",
+    "name": "Chong Kun Dang",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001040",
+    "name": "CJ",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "097950",
+    "name": "CJ CheilJedang",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000120",
+    "name": "CJ Logistics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "192820",
+    "name": "Cosmax",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005420",
+    "name": "Cosmo Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "021240",
+    "name": "Coway",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "112610",
+    "name": "CS Wind",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001680",
+    "name": "Daesang",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "047040",
+    "name": "Daewoo E&C",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003090",
+    "name": "Daewoong",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "069620",
+    "name": "Daewoong Pharmaceutical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005830",
+    "name": "DB Insurance",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000210",
+    "name": "DL",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "375500",
+    "name": "DL E&C",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "007340",
+    "name": "DN Automotive",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "026960",
+    "name": "Dongsuh",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006040",
+    "name": "Dongwon Industries",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "014820",
+    "name": "Dongwon Systems",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000150",
+    "name": "Doosan",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "241560",
+    "name": "Doosan Bobcat",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "034020",
+    "name": "Doosan Enerbility",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "454910",
+    "name": "Doosan Robotics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "192080",
+    "name": "DoubleU Games",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "450080",
+    "name": "Ecopro Materials",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "139480",
+    "name": "Emart",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "383220",
+    "name": "F&F",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "093370",
+    "name": "Foosung",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "114090",
+    "name": "Grand Korea Leisure",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006280",
+    "name": "Green Cross",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005250",
+    "name": "Green Cross Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "078930",
+    "name": "GS",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006360",
+    "name": "GS E&C",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "007070",
+    "name": "GS Retail",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "086790",
+    "name": "Hana Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009420",
+    "name": "Hanall Biopharma",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "300720",
+    "name": "Hanil Cement",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "180640",
+    "name": "Hanjin KAL",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "161390",
+    "name": "Hankook",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000240",
+    "name": "Hankook & Company",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "128940",
+    "name": "Hanmi Pharm",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "008930",
+    "name": "Hanmi Science",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "042700",
+    "name": "Hanmi Semiconductor",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "018880",
+    "name": "Hanon Systems",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "014680",
+    "name": "Hansol Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009240",
+    "name": "Hanssem",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000880",
+    "name": "Hanwha",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "012450",
+    "name": "Hanwha Aerospace",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "082740",
+    "name": "Hanwha Engine",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "088350",
+    "name": "Hanwha Life",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "042660",
+    "name": "Hanwha Ocean",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009830",
+    "name": "Hanwha Solutions",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "272210",
+    "name": "Hanwha Systems",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "267250",
+    "name": "HD Hyundai",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "267260",
+    "name": "HD현대일렉트릭",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200",
+      "THEME_CORE"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "ai_infra",
+    "sectorLabel": "산업재",
+    "subSector": "power_grid",
+    "themes": [
+      "전력기기",
+      "변압기",
+      "AI전력"
+    ],
+    "note": "전력망/변압기"
+  },
+  {
+    "code": "329180",
+    "name": "HD Hyundai Heavy Industries",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "071970",
+    "name": "HD Hyundai Marine Engine",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "443060",
+    "name": "HD Hyundai Marine Solution",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009540",
+    "name": "HD KSOE",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "017960",
+    "name": "Hankuk Carbon",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000080",
+    "name": "HiteJinro",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "204320",
+    "name": "HL Mando",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011200",
+    "name": "HMM",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "008770",
+    "name": "Hotel Shilla",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "298050",
+    "name": "HS Hyosung Advanced Materials",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "352820",
+    "name": "Hybe",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "298040",
+    "name": "효성중공업",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200",
+      "THEME_CORE"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "ai_infra",
+    "sectorLabel": "산업재",
+    "subSector": "power_grid",
+    "themes": [
+      "변압기",
+      "전력기기"
+    ],
+    "note": "초고압 변압기"
+  },
+  {
+    "code": "298020",
+    "name": "Hyosung TNC",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "307950",
+    "name": "Hyundai AutoEver",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "069960",
+    "name": "Hyundai Department Store",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000720",
+    "name": "Hyundai E&C",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "017800",
+    "name": "Hyundai Elevator",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "086280",
+    "name": "Hyundai Glovis",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001450",
+    "name": "Hyundai Marine & Fire",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "012330",
+    "name": "Hyundai Mobis",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005380",
+    "name": "Hyundai Motor",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "064350",
+    "name": "현대로템",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200",
+      "THEME_CORE"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "defense_aerospace",
+    "sectorLabel": "산업재",
+    "subSector": "defense_prime",
+    "themes": [
+      "방산",
+      "철도",
+      "K2전차"
+    ],
+    "note": "지상무기/철도"
+  },
+  {
+    "code": "004020",
+    "name": "Hyundai Steel",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011210",
+    "name": "Hyundai WIA",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "139130",
+    "name": "IM Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "024110",
+    "name": "Industrial Bank of Korea",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "007660",
+    "name": "Isu Petasys",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "457190",
+    "name": "Isu Specialty Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "175330",
+    "name": "JB Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "035720",
+    "name": "Kakao",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "323410",
+    "name": "KakaoBank",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "377300",
+    "name": "KakaoPay",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "035250",
+    "name": "Kangwon Land",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "105560",
+    "name": "KB Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "002380",
+    "name": "KCC",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "015760",
+    "name": "KEPCO",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "052690",
+    "name": "KEPCO E&C",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "051600",
+    "name": "KEPCO KPS",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000270",
+    "name": "Kia",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "039490",
+    "name": "Kiwoom Securities",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "161890",
+    "name": "Kolmar Korea",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "120110",
+    "name": "Kolon Industries",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "047810",
+    "name": "Korea Aerospace",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "071320",
+    "name": "Korea District Heating",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "036460",
+    "name": "Korea Gas",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "071050",
+    "name": "Korea Investment",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006650",
+    "name": "Korea Petrochemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "010130",
+    "name": "Korea Zinc",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003490",
+    "name": "Korean Air",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "259960",
+    "name": "Krafton",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "030200",
+    "name": "KT",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "033780",
+    "name": "KT&G",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011780",
+    "name": "Kumho Petrochemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "073240",
+    "name": "Kumho Tire",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "066970",
+    "name": "L&F",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003550",
+    "name": "LG",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "051910",
+    "name": "LG Chem",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "064400",
+    "name": "LG CNS",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "034220",
+    "name": "LG Display",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "066570",
+    "name": "LG Electronics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "373220",
+    "name": "LG Energy Solution",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "051900",
+    "name": "LG H&H",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011070",
+    "name": "LG Innotek",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "032640",
+    "name": "LG Uplus",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "079550",
+    "name": "LIG넥스원",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200",
+      "THEME_CORE"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "defense_aerospace",
+    "sectorLabel": "산업재",
+    "subSector": "defense_prime",
+    "themes": [
+      "방산",
+      "미사일",
+      "레이더"
+    ],
+    "note": "유도무기/방산전자"
+  },
+  {
+    "code": "004990",
+    "name": "Lotte",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011170",
+    "name": "Lotte Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005300",
+    "name": "Lotte Chilsung",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "004000",
+    "name": "Lotte Fine Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "023530",
+    "name": "Lotte Shopping",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "280360",
+    "name": "Lotte Wellfood",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006260",
+    "name": "LS",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "010120",
+    "name": "LS ELECTRIC",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200",
+      "THEME_CORE"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "ai_infra",
+    "sectorLabel": "산업재",
+    "subSector": "power_grid",
+    "themes": [
+      "전력기기",
+      "스마트그리드"
+    ],
+    "note": "전력 자동화/기기"
+  },
+  {
+    "code": "138040",
+    "name": "Meritz Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006800",
+    "name": "Mirae Asset Securities",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "081660",
+    "name": "Misto",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "002840",
+    "name": "Miwon Commercial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "268280",
+    "name": "Miwon Specialty Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "035420",
+    "name": "Naver",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "036570",
+    "name": "NCSoft",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "251270",
+    "name": "Netmarble",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005940",
+    "name": "NH Investment & Securities",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "004370",
+    "name": "Nongshim",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "010060",
+    "name": "OCI Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "271560",
+    "name": "Orion",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001800",
+    "name": "Orion Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "007310",
+    "name": "Ottogi",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "028670",
+    "name": "Pan Ocean",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "034230",
+    "name": "Paradise",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "103140",
+    "name": "Poongsan",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005490",
+    "name": "POSCO",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "022100",
+    "name": "POSCO DX",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003670",
+    "name": "POSCO Future M",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "047050",
+    "name": "POSCO International",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "012750",
+    "name": "S-1",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "062040",
+    "name": "Sanil Electric",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "207940",
+    "name": "Samsung Biologics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "028260",
+    "name": "Samsung C&T",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "029780",
+    "name": "Samsung Card",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "028050",
+    "name": "Samsung E&A",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Constructions",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009150",
+    "name": "Samsung Electro-Mechanics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005930",
+    "name": "Samsung Electronics",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000810",
+    "name": "Samsung Fire & Marine",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "010140",
+    "name": "Samsung Heavy Industries",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Heavy Industries",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "032830",
+    "name": "Samsung Life",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "006400",
+    "name": "Samsung SDI",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "018260",
+    "name": "Samsung SDS",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "016360",
+    "name": "Samsung Securities",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003230",
+    "name": "Samyang Foods",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Staples",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "137310",
+    "name": "SD Biosensor",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001430",
+    "name": "Seah Besteel",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003030",
+    "name": "Seah Steel Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "004490",
+    "name": "Sebang Global Battery",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "055550",
+    "name": "Shinhan Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "004170",
+    "name": "Shinsegae",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "034730",
+    "name": "SK",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "326030",
+    "name": "SK Biopharm",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "302440",
+    "name": "SK Bioscience",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "285130",
+    "name": "SK Chemicals",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000660",
+    "name": "SK Hynix",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "361610",
+    "name": "SK IE Technology",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "096770",
+    "name": "SK Innovation",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "402340",
+    "name": "SK Square",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "IT",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "017670",
+    "name": "SK Telecom",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Communication Services",
+    "sector": "telecom",
+    "sectorLabel": "통신/미디어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "011790",
+    "name": "SKC",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "005850",
+    "name": "SL",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "010950",
+    "name": "S-Oil",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "003240",
+    "name": "Taekwang Industrial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "001440",
+    "name": "Taihan Cable & Solution",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Industrials",
+    "sector": "industrial",
+    "sectorLabel": "산업재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "069260",
+    "name": "TKG Huchems",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Energy & Chemicals",
+    "sector": "energy",
+    "sectorLabel": "에너지",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "316140",
+    "name": "Woori Financial",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Financials",
+    "sector": "finance",
+    "sectorLabel": "금융",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "008730",
+    "name": "Youlchon Chemical",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000670",
+    "name": "Young Poong",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Steels & Materials",
+    "sector": "material",
+    "sectorLabel": "소재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "111770",
+    "name": "Youngone",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "009970",
+    "name": "Youngone Holdings",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Consumer Discretionary",
+    "sector": "consumer",
+    "sectorLabel": "소비재",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "000100",
+    "name": "Yuhan",
+    "market": "KOSPI",
+    "indexGroups": [
+      "KOSPI200"
+    ],
+    "gicsSector": "Health Care",
+    "sector": "health",
+    "sectorLabel": "헬스케어",
+    "subSector": "",
+    "themes": [],
+    "note": "KOSPI200 자동 수집. 세부섹터 검수 필요."
+  },
+  {
+    "code": "102120",
+    "name": "어보브반도체",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "auto_mcu_power",
+    "themes": [
+      "MCU",
+      "비메모리",
+      "차량용반도체",
+      "팹리스"
+    ],
+    "note": "MCU 중심 비메모리 반도체"
+  },
+  {
+    "code": "054450",
+    "name": "텔레칩스",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "auto_mcu_power",
+    "themes": [
+      "차량용반도체",
+      "팹리스",
+      "자율주행"
+    ],
+    "note": "차량용 AP/인포테인먼트 반도체"
+  },
+  {
+    "code": "108320",
+    "name": "LX세미콘",
+    "market": "KOSPI",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "fabless_mobile",
+    "themes": [
+      "디스플레이구동칩",
+      "팹리스"
+    ],
+    "note": "DDI 중심 팹리스"
+  },
+  {
+    "code": "094360",
+    "name": "칩스앤미디어",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "eda_ip",
+    "themes": [
+      "반도체IP",
+      "비디오IP",
+      "팹리스"
+    ],
+    "note": "영상 반도체 IP"
+  },
+  {
+    "code": "399720",
+    "name": "가온칩스",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "backend_packaging",
+    "themes": [
+      "디자인하우스",
+      "파운드리",
+      "비메모리"
+    ],
+    "note": "삼성 파운드리 디자인솔루션 파트너"
+  },
+  {
+    "code": "080220",
+    "name": "제주반도체",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "storage_nand",
+    "themes": [
+      "메모리팹리스",
+      "온디바이스AI"
+    ],
+    "note": "저전력 메모리 팹리스"
+  },
+  {
+    "code": "000990",
+    "name": "DB하이텍",
+    "market": "KOSPI",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "foundry",
+    "themes": [
+      "파운드리",
+      "전력반도체",
+      "비메모리"
+    ],
+    "note": "아날로그/전력반도체 파운드리"
+  },
+  {
+    "code": "222800",
+    "name": "심텍",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "semiconductor",
+    "subSector": "pcb_substrate",
+    "themes": [
+      "반도체기판",
+      "PCB"
+    ],
+    "note": "메모리/패키지 기판"
+  },
+  {
+    "code": "093320",
+    "name": "케이아이엔엑스",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "ai_infra",
+    "subSector": "data_center",
+    "themes": [
+      "데이터센터",
+      "IDC",
+      "클라우드"
+    ],
+    "note": "인터넷 인프라/IDC"
+  },
+  {
+    "code": "064960",
+    "name": "SNT모티브",
+    "market": "KOSPI",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "defense_aerospace",
+    "subSector": "defense_prime",
+    "themes": [
+      "방산",
+      "자동차부품"
+    ],
+    "note": "방산/구동모터"
+  },
+  {
+    "code": "214150",
+    "name": "클래시스",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "bio_healthcare",
+    "subSector": "medical_device",
+    "themes": [
+      "미용의료기기"
+    ],
+    "note": "피부미용 의료기기"
+  },
+  {
+    "code": "145020",
+    "name": "휴젤",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "bio_healthcare",
+    "subSector": "biotech",
+    "themes": [
+      "보톡스",
+      "미용의료"
+    ],
+    "note": "톡신/필러"
+  },
+  {
+    "code": "214450",
+    "name": "파마리서치",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "bio_healthcare",
+    "subSector": "medical_device",
+    "themes": [
+      "스킨부스터",
+      "미용의료"
+    ],
+    "note": "리쥬란 등 미용의료"
+  },
+  {
+    "code": "950140",
+    "name": "잉글우드랩",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "consumer_brand",
+    "subSector": "beauty_cosmetics",
+    "themes": [
+      "화장품ODM",
+      "미국소비"
+    ],
+    "note": "미국 화장품 ODM"
+  },
+  {
+    "code": "257720",
+    "name": "실리콘투",
+    "market": "KOSDAQ",
+    "indexGroups": [
+      "THEME_CORE"
+    ],
+    "sector": "consumer_brand",
+    "subSector": "beauty_cosmetics",
+    "themes": [
+      "K뷰티",
+      "역직구"
+    ],
+    "note": "K뷰티 유통 플랫폼"
+  }
+]
