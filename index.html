@@ -51,6 +51,21 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:1
 .sum-label{font-size:11px;color:var(--text2);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;}
 .sum-value{font-size:24px;font-weight:700;font-family:var(--mono);}
 .sum-sub{font-size:11px;color:var(--text3);margin-top:3px;}
+.engine-panel{display:grid;grid-template-columns:minmax(280px,380px) 1fr;gap:16px;margin-bottom:18px;}
+.engine-box{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px;}
+.engine-input-row{display:flex;gap:8px;margin-top:12px;}
+.engine-input{flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--text);font-family:var(--mono);font-size:14px;outline:none;text-transform:uppercase;}
+.engine-input:focus{border-color:var(--accent);}
+.engine-btn{background:var(--accent);border:none;border-radius:8px;color:white;padding:10px 14px;font-weight:700;cursor:pointer;}
+.engine-meta{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.engine-meta-card{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px;}
+.engine-meta-card .k{font-size:11px;color:var(--text3);font-weight:700;margin-bottom:4px;}
+.engine-meta-card .v{font-size:13px;color:var(--text);font-weight:700;}
+.proxy-list{display:grid;gap:10px;}
+.proxy-card{display:grid;grid-template-columns:36px 1.4fr 1fr 1.5fr;gap:12px;align-items:center;background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:12px;}
+.proxy-rank{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(59,130,246,0.14);color:var(--accent2);font-family:var(--mono);font-weight:700;}
+.proxy-score{font-family:var(--mono);font-size:18px;font-weight:800;color:var(--green2);}
+.proxy-reason{font-size:11px;color:var(--text2);line-height:1.5;}
 .v-green{color:var(--green2);}.v-red{color:var(--red2);}.v-amber{color:var(--amber2);}.v-blue{color:var(--accent2);}.v-purple{color:var(--purple2);}
 .filter-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px;align-items:center;}
 .sub-filter-bar{display:flex;gap:6px;flex-wrap:wrap;margin:-4px 0 14px;align-items:center;}
@@ -212,6 +227,10 @@ td{padding:10px 14px;vertical-align:middle;}
     <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     섹터 개요
   </div>
+  <div class="sidebar-item" onclick="goPage('engine',this);renderProxyEngine();">
+    <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 17l6-6 4 4 6-8M4 7h4m-4 4h2"/></svg>
+    Proxy Engine
+  </div>
   <div class="sidebar-item" onclick="goPage('accuracy',this)">
     <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
     정확도 추적 <span class="sidebar-badge" id="sb-acc">0%</span>
@@ -301,6 +320,23 @@ td{padding:10px 14px;vertical-align:middle;}
   <div class="page-title">섹터 개요</div>
   <div class="page-sub">미국 섹터별 등락 현황 및 한국 연관 종목 영향도</div>
   <div class="sector-grid" id="sector-grid"></div>
+</div>
+
+<div class="page" id="page-engine">
+  <div class="page-title">Shock → KR Proxy Engine</div>
+  <div class="page-sub">미국 티커를 입력하면 팩터와 매핑 매트릭스를 기준으로 한국 프록시 Top5를 계산합니다.</div>
+  <div class="engine-panel">
+    <div class="engine-box">
+      <div class="sum-label">US Signal Input</div>
+      <div style="font-size:13px;color:var(--text2);line-height:1.6;">예: NVDA, AMD, TSLA, LLY, XOM</div>
+      <div class="engine-input-row">
+        <input class="engine-input" id="engine-ticker" value="NVDA" onkeydown="if(event.key==='Enter')renderProxyEngine()">
+        <button class="engine-btn" onclick="renderProxyEngine()">조회</button>
+      </div>
+    </div>
+    <div class="engine-meta" id="engine-meta"></div>
+  </div>
+  <div class="proxy-list" id="engine-results"></div>
 </div>
 
 <div class="page" id="page-accuracy">
@@ -600,6 +636,7 @@ let priceCache={};
 const LIVE_REFRESH_MS=10000;
 let priceFetchInFlight=false;
 let krMarketCalendar={closedDates:{},earlyOpenDates:{},earlyCloseDates:{}};
+let crossMarketMapping={matrix:[],usSignalHub:[],krProxyUniverse:[],megaSectors:[]};
 
 // ============================================================
 // INIT
@@ -614,6 +651,7 @@ window.addEventListener('load',async()=>{
   renderSidebarSectors();
   renderSubSectorFilters();
   renderSectorGrid();
+  renderProxyEngine();
   renderAccuracy();
   updateAccuracyMetrics();
   startMarketClock();
@@ -623,12 +661,13 @@ window.addEventListener('load',async()=>{
 
 async function loadUniverseData(){
   try{
-    const [r,krR,taxR,namesR,calR]=await Promise.all([
+    const [r,krR,taxR,namesR,calR,mapR]=await Promise.all([
       fetch('/data/us-stocks.generated.json',{cache:'no-store'}),
       fetch('/data/kr-stocks.generated.json',{cache:'no-store'}),
       fetch('/data/sector-taxonomy.json',{cache:'no-store'}),
       fetch('/data/us-korean-names.json',{cache:'no-store'}),
-      fetch('/data/kr-market-calendar.json',{cache:'no-store'})
+      fetch('/data/kr-market-calendar.json',{cache:'no-store'}),
+      fetch('/data/cross-market-mapping.v1.json',{cache:'no-store'})
     ]);
     if(!r.ok)return;
     const data=await r.json();
@@ -641,6 +680,7 @@ async function loadUniverseData(){
     }
     usKoreanNames=namesR.ok?await namesR.json():{};
     if(calR.ok)krMarketCalendar=await calR.json();
+    if(mapR.ok)crossMarketMapping=await mapR.json();
     const krMeta=new Map((Array.isArray(krUniverse)?krUniverse:[]).map(k=>[k.code,k]));
     if(!Array.isArray(data)||data.length<400)return;
     STOCKS=data.map(s=>({
@@ -906,6 +946,7 @@ async function fetchAllPrices(){
   renderTable();
   renderEtfTable();
   renderSectorGrid();
+  renderProxyEngine();
   hideTick();
   }finally{
     priceFetchInFlight=false;
@@ -1166,6 +1207,105 @@ function renderSectorGrid(){
 // ============================================================
 // 종목명 → 한국 검색어 매핑 (한국 뉴스 검색용)
 // ============================================================
+function corrWeight(corr){
+  return {high:100,mid:68,low:38}[String(corr||'').toLowerCase()]||50;
+}
+
+function getKrProxyTop(ticker,limit=5){
+  const q=String(ticker||'').trim().toUpperCase();
+  const us=STOCKS.find(s=>String(s.symbol||s.id).toUpperCase()===q);
+  if(!us)return {found:false,ticker:q,proxies:[]};
+  const usMove=Number(us.pct||0);
+  const moveBoost=Math.min(18,Math.abs(usMove)*2);
+  const seen=new Map();
+  for(const kr of us.kr||[]){
+    const code=kr.t||kr.code;
+    if(!code)continue;
+    const krPct=Number(kr.pct||0);
+    const groupBoost=(kr.indexGroups||[]).includes('KOSPI200')?6:0;
+    const relationBoost=kr.relation?5:0;
+    const priceBoost=kr.price?2:0;
+    const score=Math.round(corrWeight(kr.corr)+moveBoost+Math.max(-8,Math.min(12,krPct*1.4))+groupBoost+relationBoost+priceBoost);
+    const row={
+      code,
+      name:kr.n||'',
+      groups:kr.indexGroups||[],
+      corr:kr.corr||'mid',
+      relation:kr.relation||'',
+      score,
+      price:kr.price||null,
+      pct:Number.isFinite(krPct)?krPct:null,
+      reason:[`${us.id} ${usMove>=0?'상승':'하락'} 충격`,subSectorLabel(us.subSector),kr.relation||'',`관련도 ${kr.corr||'mid'}`].filter(Boolean).join(' · ')
+    };
+    const prev=seen.get(code);
+    if(!prev||row.score>prev.score)seen.set(code,row);
+  }
+  for(const m of crossMarketMapping.matrix||[]){
+    if(String(m.us||'').toUpperCase()!==q)continue;
+    const code=m.krCode||'';
+    if(!code)continue;
+    const existingKr=(us.kr||[]).find(k=>(k.t||k.code)===code)||{};
+    const krPct=Number(existingKr.pct||0);
+    const matrixScore=Number(m.score||0);
+    const row={
+      code,
+      name:existingKr.n||m.kr||'',
+      groups:existingKr.indexGroups||[],
+      corr:matrixScore>=90?'high':matrixScore>=70?'mid':'low',
+      relation:`${m.factor||'Factor'} 매트릭스`,
+      score:Math.round(matrixScore+20+Math.min(10,Math.abs(usMove))),
+      price:existingKr.price||null,
+      pct:Number.isFinite(krPct)?krPct:null,
+      reason:[`Mapping Matrix v${crossMarketMapping.version||1}`,`${m.factor||'Factor'} transmission`,`score ${matrixScore}`].join(' · ')
+    };
+    const prev=seen.get(code);
+    if(!prev||row.score>prev.score)seen.set(code,row);
+  }
+  return {
+    found:true,
+    ticker:us.id,
+    name:us.name,
+    koName:us.koName||'',
+    sectorLabel:us.sectorLabel||'',
+    factor:us.subSector||'',
+    factorLabel:subSectorLabel(us.subSector),
+    themes:us.themes||[],
+    usMovePct:usMove,
+    proxies:[...seen.values()].sort((a,b)=>b.score-a.score).slice(0,limit)
+  };
+}
+
+function renderProxyEngine(){
+  const input=document.getElementById('engine-ticker');
+  const meta=document.getElementById('engine-meta');
+  const results=document.getElementById('engine-results');
+  if(!input||!meta||!results)return;
+  const out=getKrProxyTop(input.value||'NVDA',5);
+  if(!out.found){
+    meta.innerHTML='<div class="engine-meta-card"><div class="k">상태</div><div class="v">티커 없음</div></div>';
+    results.innerHTML='<div class="engine-box" style="color:var(--text2);">데이터에 없는 미국 티커입니다.</div>';
+    return;
+  }
+  const move=out.usMovePct?`${out.usMovePct>=0?'+':''}${out.usMovePct.toFixed(2)}%`:'가격 대기';
+  meta.innerHTML=[
+    ['US 종목',`${out.ticker} ${out.koName||out.name}`],
+    ['대분류',out.sectorLabel||'-'],
+    ['팩터',out.factorLabel||out.factor||'-'],
+    ['현재 충격',move]
+  ].map(([k,v])=>`<div class="engine-meta-card"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+  results.innerHTML=out.proxies.map((p,idx)=>{
+    const pct=p.pct?`${p.pct>=0?'+':''}${p.pct.toFixed(2)}%`:'-';
+    const price=p.price?`${Math.round(p.price).toLocaleString('ko-KR')}원`:'가격 대기';
+    const badges=(p.groups||[]).map(g=>`<span class="kr-index-badge">${g==='KOSPI200'?'코200':g}</span>`).join(' ');
+    return `<div class="proxy-card">
+      <div class="proxy-rank">${idx+1}</div>
+      <div><div class="ticker-cell"><div class="t">${p.name}</div><div class="n">${p.code} ${badges}</div></div></div>
+      <div><div class="proxy-score">${p.score}</div><div class="n">${price} · ${pct}</div></div>
+      <div class="proxy-reason">${p.reason}</div>
+    </div>`;
+  }).join('')||'<div class="engine-box" style="color:var(--text2);">아직 연결된 한국 프록시가 없습니다.</div>';
+}
+
 const KR_SEARCH_TERMS = {
   AAPL:'애플',MSFT:'마이크로소프트',GOOGL:'구글',META:'메타',AMZN:'아마존',
   NFLX:'넷플릭스',CRM:'세일즈포스',ORCL:'오라클',ADBE:'어도비',NOW:'서비스나우',

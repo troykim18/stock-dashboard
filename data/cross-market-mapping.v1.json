@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "source": "cross_market_mapping_v1_package_v2.zip",
+  "megaSectors": [
+    { "id": "MS01", "name": "AI" },
+    { "id": "MS04", "name": "Power" },
+    { "id": "MS13", "name": "Defense" }
+  ],
+  "usSignalHub": [
+    { "ticker": "NVDA", "name": "NVIDIA", "factor": "AI" },
+    { "ticker": "VRT", "name": "Vertiv", "factor": "Power" },
+    { "ticker": "LMT", "name": "Lockheed Martin", "factor": "Defense" }
+  ],
+  "krProxyUniverse": [
+    { "name": "SK하이닉스", "code": "000660", "canonicalName": "SK Hynix", "cluster": "AI" },
+    { "name": "HD현대일렉트릭", "code": "267260", "canonicalName": "HD현대일렉트릭", "cluster": "Power" },
+    { "name": "한화에어로", "code": "012450", "canonicalName": "Hanwha Aerospace", "cluster": "Defense" }
+  ],
+  "matrix": [
+    { "us": "NVDA", "kr": "SK하이닉스", "krCode": "000660", "score": 97, "factor": "AI", "source": "matrix_v1" },
+    { "us": "VRT", "kr": "HD현대일렉트릭", "krCode": "267260", "score": 95, "factor": "Power", "source": "matrix_v1" },
+    { "us": "LMT", "kr": "한화에어로", "krCode": "012450", "score": 95, "factor": "Defense", "source": "matrix_v1" }
+  ]
+}

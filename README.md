@@ -63,6 +63,34 @@ OPENAI_MODEL=gpt-5.4-nano
 - 종목 표에는 미국 티커/영문명과 함께 가능한 경우 한국어 회사명을 같이 표시합니다.
 - 대분류 섹터를 누르면 세부섹터 필터가 나타납니다. 예: 반도체 → AI GPU/가속기, 메모리/HBM, 반도체 장비, 차량용/MCU/전력반도체 등.
 
+## Shock → KR Proxy Engine
+
+`cross_market_mapping_v1_package_v2.zip`의 CSV를 기반으로 명시 매핑 매트릭스를 추가했습니다.
+
+추가된 파일:
+
+- `data/cross-market/mega_sectors_18.csv`
+- `data/cross-market/us_top30_signal_hub.csv`
+- `data/cross-market/kr_core50_proxy_universe.csv`
+- `data/cross-market/us_kr_mapping_matrix_v1.csv`
+- `data/cross-market-mapping.v1.json`
+
+대시보드의 `Proxy Engine` 메뉴에서 미국 티커를 입력하면 한국 프록시 Top5를 반환합니다.
+
+로컬에서 확인하려면:
+
+```bash
+node scripts/query-proxy.mjs NVDA 5
+node scripts/query-proxy.mjs VRT 5
+node scripts/query-proxy.mjs LMT 5
+```
+
+CSV 패키지를 다시 받았을 때는 아래 명령으로 JSON 매트릭스를 재생성할 수 있습니다.
+
+```bash
+node scripts/import-cross-market-package.mjs incoming/cross_market_mapping_v1_package_v2
+```
+
 ## 코스닥150 CSV 추가 방법
 
 KRX 정보데이터시스템에서 코스닥150 구성종목 CSV를 받아서 추가할 수 있습니다.
